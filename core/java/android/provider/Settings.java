@@ -5693,6 +5693,12 @@ public final class Settings {
         }
 
         /**
+         * Whether to enable the ripple animation on fingerprint unlock
+         * @hide
+         */
+        public static final String ENABLE_RIPPLE_EFFECT = "enable_ripple_effect";
+
+        /**
          * Whether to show the battery info on the lockscreen while charging
          * @hide
          */
