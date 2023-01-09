@@ -88,7 +88,7 @@ class AuthRippleView(context: Context?, attrs: AttributeSet?) : View(context, at
         }
 
     init {
-        rippleShader.color = Utils.getColorAttrDefaultColor(context, R.attr.wallpaperTextColorAccent)
+        rippleShader.color = Utils.getColorAttrDefaultColor(context, android.R.attr.colorAccent)
         rippleShader.progress = 0f
         rippleShader.sparkleStrength = RIPPLE_SPARKLE_STRENGTH
         ripplePaint.shader = rippleShader
